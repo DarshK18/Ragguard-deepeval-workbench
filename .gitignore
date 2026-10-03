@@ -3,6 +3,10 @@
 .env.*
 !.env.example
 
+# ---- source transcripts (keep local; do not publish without permission) ----
+/data/*.vtt
+/data/**/*.vtt
+
 # ---- generated vector store (large + regenerable: rebuild from src/retriever.py) ----
 chroma_store/
 chroma_db/
